@@ -15,10 +15,15 @@ import {
 import Image from "next/image";
 
 import logo2 from './logo2.png';
+type MobileMenuContext = {
+  isMobileMenuOpen: boolean;
+  toggleMobileMenu: () => void;
+};
 
 
 
-export  default function DrawerComonent({isMobileMenuOpen,toggleMobileMenu}) {
+
+export  default function DrawerComonent({isMobileMenuOpen,toggleMobileMenu}:MobileMenuContext) {
 
 
   return (

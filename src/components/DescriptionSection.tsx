@@ -1,6 +1,6 @@
-import Image from 'next/image'
+
 import React from 'react'
-import good_describe from './good_describe.jpg'
+
 
 export default function DescriptionSection() {
   return (

@@ -7,15 +7,7 @@ import { Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 
 export default function CarouselSection() {
-  const images = [
-    'https://images.pexels.com/photos/1805600/pexels-photo-1805600.jpeg',
-    'https://images.pexels.com/photos/897262/pexels-photo-897262.jpeg?auto=compress&cs=tinysrgb&w=600',
 
-    'https://images.pexels.com/photos/995300/pexels-photo-995300.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    'https://images.pexels.com/photos/1805600/pexels-photo-1805600.jpeg',
-    'https://images.pexels.com/photos/897262/pexels-photo-897262.jpeg?auto=compress&cs=tinysrgb&w=600',
-
-  ];
 const items=[
   {
     img:'https://images.pexels.com/photos/1805600/pexels-photo-1805600.jpeg',
