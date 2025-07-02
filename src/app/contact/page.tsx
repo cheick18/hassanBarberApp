@@ -1,12 +1,12 @@
 
-import ServiceHeader from '@/components/Service/ServiceHeader'
+import ServiceHeader from '@/components/ServiceHeader'
 import React from 'react'
 
 export default function Contactpage() {
   return (
 
     <div>
-      <ServiceHeader />
+      <ServiceHeader title='Contact us' />
 
       <div className=''>
         <form action="#" method="POST" className="  mx-8   sm:mx-auto mt-16 max-w-xl sm:mt-20">
@@ -61,7 +61,7 @@ export default function Contactpage() {
     </div>
     <div className='pb-[148px] pt-12'>
      
-            <button type="submit" className=" text-white bg-[#C4A35A]   sm:bg-[#111111] hover:bg-[#C4A35A] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center  flex justify-center  ">SEND</button>
+            <button type="submit" className=" text-white bg-[#C4A35A]   sm:bg-[#111111] hover:bg-[#C4A35A] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center  flex justify-center  " disabled={true}>SEND</button>
            
     </div>
 

@@ -3,7 +3,7 @@ import React from 'react'
 export default function ServiceItem() {
   return (
     <>
-      <div className='grid grid-cols-2 h-[400px] pt-32 items-center mx-8 px-2  relative'>
+      <div className='grid grid-cols-2 h-[400px] pt-32 items-center mx-8 px-2  relative' id='taille-barbe'>
         <div className="image-container col-span-2 sm:col-span-1 px-4 sm:px-0">
           <img src='https://images.pexels.com/photos/897251/pexels-photo-897251.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' className='rounded-md' style={{ width: '100%', height: '100%' }} />
         </div>
@@ -18,9 +18,9 @@ export default function ServiceItem() {
         </div>
 
       </div>
-      <div className='grid grid-cols-2 h-[400px] pt-48 items-center mx-8 px-2 '>
+      <div className='grid grid-cols-2 h-[400px] pt-48 items-center mx-8 px-2 ' id='rassage-traditionnel'>
 
-        <div className="description-container pr-0 sm:pr-8 col-span-2 sm:col-span-1 text-center sm:text-start order-2 sm:order-1 mt-12 sm:mt-0">
+        <div className="description-container pr-0 sm:pr-8 col-span-2 sm:col-span-1 text-center sm:text-start order-2 sm:order-1 mt-12 sm:mt-0" >
           <div data-aos="fade-up">
           <h3 className='text-xl font-bold text-[#C4A35A] mb-2'>Rasage Traditionnel</h3>
             <p className='text-base sm:text-lg text-gray-600'>
@@ -47,7 +47,7 @@ export default function ServiceItem() {
         </div>
 
       </div>
-      <div className='grid grid-cols-2 pt-80 items-center mx-8 px-2 h-auto'>
+      <div className='grid grid-cols-2 pt-80 items-center mx-8 px-2 h-auto' id='degrade-blanc'>
 
         <div className="description-container pr-0 sm:pr-8 col-span-2 sm:col-span-1 order-2 sm:order-1 text-center sm:text-start mt-12 sm:mt-0">
           <div data-aos="fade-up">

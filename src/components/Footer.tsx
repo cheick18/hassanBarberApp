@@ -88,14 +88,20 @@ export default function Footer() {
         </a>
         </div>
          <p className='text-center text-base pt-4 text-gray-600'> © 2025 HassanBarber</p>
+         {/*
+         
          <div>
+          
+         
           <ul className='flex gap-4 text-base pt-4 justify-center text-gray-600'>
             <li>Home</li>
             <li>Services</li>
-            <li>Pricing</li>
             <li>Contact</li>
           </ul>
+         
          </div>
+         */}
+          
       </div>
      
     </footer>

@@ -14,7 +14,7 @@ import {
 } from "flowbite-react";
 import Image from "next/image";
 
-import logo2 from './logo2.png';
+import logo2 from '../../public/img/logo2.png';
 type MobileMenuContext = {
   isMobileMenuOpen: boolean;
   toggleMobileMenu: () => void;

@@ -1,9 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
-import Header1 from './header1.jpg'
-import Header2 from './Header2.jpg'
+import Header1 from '../../public/img/header1.jpg'
+import Header2 from '../../public/img/Header2.jpg'
 import { IoMail } from "react-icons/io5";
 import { FaSquarePhone } from "react-icons/fa6";
+import Link from 'next/link';
 export default function HeroSection() {
   return (
     <div className='w-full'>
@@ -33,10 +34,10 @@ export default function HeroSection() {
             <div className='text-white'>
                  <h1 className='text-4xl sm:text-5xl font-bold tracking-tight text-end sm:text-end'>We offer the <br></br>best shave</h1>
             <p className='pt-8 text-base sm:text-lg leading-relaxed'>Give your beard the attention it deserves. Precise cuts, a refined style, and a unique experience every time.</p>
-
+          <Link href='contact'>
            <button type="submit" className=" mt-9 text-white bg-[#C4A35A]  border border-[#C4A35A] sm:bg-black hover:bg-[#C4A35A] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center items-center  sm:float-end">CANTACT US</button>
            
-           
+           </Link>
             </div>
            
           </div>

@@ -1,4 +1,4 @@
-import ServiceHeader from '@/components/Service/ServiceHeader'
+import ServiceHeader from '@/components/ServiceHeader'
 import React from 'react'
 
 export default function page() {

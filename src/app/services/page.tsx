@@ -1,11 +1,11 @@
-import ServiceHeader from '@/components/Service/ServiceHeader'
+import ServiceHeader from '@/components/ServiceHeader'
 import ServiceItem from '@/components/ServiceItem'
 import React from 'react'
 
 export default function page() {
   return (
      <div>
-               <ServiceHeader />
+               <ServiceHeader title='Services' />
                <ServiceItem />
            
              

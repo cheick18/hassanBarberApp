@@ -5,40 +5,41 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Autoplay } from 'swiper/modules';
 // Import Swiper styles
 import 'swiper/css';
+import Link from 'next/link';
 
 export default function CarouselSection() {
 
 const items=[
   {
     img:'https://images.pexels.com/photos/1805600/pexels-photo-1805600.jpeg',
-    text:'Taille de Barbe',
-    link:''
+    text:'Rassage traditionnel',
+    link:'services#rassage-traditionnel'
   },
    {
     img:'https://images.pexels.com/photos/897262/pexels-photo-897262.jpeg?auto=compress&cs=tinysrgb&w=600',
-    text:'Rasage Traditionnel',
-    link:''
-  },
-   {
-    img:'https://images.pexels.com/photos/995300/pexels-photo-995300.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-   text:'Taille de Barbe',
-    link:''
-  },
-   {
-    img:'https://images.pexels.com/photos/1805600/pexels-photo-1805600.jpeg',
     text:'Taille de Barbe',
-    link:''
+    link:'services#taille-barbe'
+  },
+   {
+    img:'https://images.pexels.com/photos/1570807/pexels-photo-1570807.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+   text:'Dégradé à Blanc',
+    link:'services#degrade-blanc'
+  },
+  {
+    img:'https://images.pexels.com/photos/995300/pexels-photo-995300.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    text:'Rassage traditionnel',
+    link:'services#rassage-traditionnel'
   },
    {
     img:'https://images.pexels.com/photos/897262/pexels-photo-897262.jpeg?auto=compress&cs=tinysrgb&w=600',
-    text:'Rasage Traditionnel',
-    link:''
-  },
-   {
-    img:'https://images.pexels.com/photos/995300/pexels-photo-995300.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     text:'Taille de Barbe',
-    link:''
-  }
+    link:'services#taille-barbe'
+  },
+     {
+    img:'https://images.pexels.com/photos/1570807/pexels-photo-1570807.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+   text:'Dégradé à Blanc',
+    link:'services#degrade-blanc'
+  },
 ]
   return (
     <div className="block h-400px mx-8 px-2  mt-[108px]">
@@ -67,6 +68,7 @@ const items=[
       >
         {items.map((src, index) => (
          <SwiperSlide key={index} className="relative">
+          <Link href={src.link}>
   <div className="relative group card-container overflow-hidden">
     <img
       src={src.img}
@@ -85,6 +87,7 @@ const items=[
       </span>
     </div>
   </div>
+  </Link>
 </SwiperSlide>
 
         ))}

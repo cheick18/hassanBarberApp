@@ -1,7 +1,7 @@
 'use client' // nécessaire si tu utilises app router
 
 import React, { useState } from 'react';
-import logo2 from './logo2.png';
+import logo2 from '../../public/img/logo2.png';
 import Image from 'next/image';
 import Link from 'next/link';
 import DrawerComonent from './Drawer';
